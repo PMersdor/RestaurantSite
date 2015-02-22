@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Peter's Pizza/Build</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="wrapper">
+     <header><h1>Build Your Own Pizza</h1></header>
+     <img id="banner" src="banner.jpg" alt="Peter's Pizza Banner">
+     <ul id="nav">
+           <li><a href="index.html">HOME</a></li>
+           <li><a href="build.html">BUILD A PIZZA</a></li>
+           <li><a href="order.html">ORDER</a></li>
+           <li><a href="contact.html">CONTACT</a></li>
+     </ul>
+     <h2 id="h2-3">Here You Build Your Own Pizza</h2>
+     <h3 id="h3-1">Don't feel like choosing? Go to <a href="order.html">ORDERS</a></h3>
+     <div id="crust">
+     <h3>Crust</h3>
+      <form action="order.html" method="post" id="bread">
+       <ul>
+        <li><input type="radio" name="crusttype" value="superthin" required>Super Thin</li>
+        <li><input type="radio" name="crusttype" value="thin" required>Thin</li>
+        <li><input type="radio" name="crusttype" value="medium" required>Medium</li>
+        <li><input type="radio" name="crusttype" value="thick" required>Thick</li>
+        <li><input type="radio" name="crusttype" value="superthick" required>Super Thick</li>
+        <li><input type="checkbox" name="crusttype" value="stuffed">Stuffed Crust</li>
+       </ul>
+     </div>
+     <div id="cheese">  
+      <h3>Cheese</h3>
+      <ul>
+        <li><input type="radio" name="cheesetype" value="mozzarella" required>Mozzarella</li>
+        <li><input type="radio" name="cheesetype" value="provolone" required>Provolone</li>
+        <li><input type="radio" name="cheesetype" value="pecorino" required>Pecorino</li>
+        <li><input type="radio" name="cheesetype" value="romano" required>Romano</li>
+        <li><input type="radio" name="cheesetype" value="ricotta" required>Ricotta</li>
+       </ul>
+     </div>
+     <div id="toppings">
+      <h3>Toppings</h3>
+      <ul>
+        <li><input type="checkbox" name="topping" value="anchovy">Anchovy</li>
+        <li><input type="checkbox" name="topping" value="bacon">Bacon</li>
+        <li><input type="checkbox" name="topping" value="bellpeppper">Bell Pepper</li>
+        <li><input type="checkbox" name="topping" value="garlic">Garlic</li>
+        <li><input type="checkbox" name="topping" value="ham">Ham</li>
+        <li><input type="checkbox" name="topping" value="jalapeno">Jalapeno</li>
+        <li><input type="checkbox" name="topping" value="mushroom">Mushroom</li>
+        <li><input type="checkbox" name="topping" value="olives">Olives</li>
+        <li><input type="checkbox" name="topping" value="onion">Onion</li>
+        <li><input type="checkbox" name="topping" value="peppeoni">Peppeoni</li>
+        <li><input type="checkbox" name="topping" value="pineapple">Pineapple</li>
+        <li><input type="checkbox" name="topping" value="sausage">Sausage</li>
+        <li><input type="checkbox" name="topping" value="none">None</li>
+      </ul>
+     </div>
+     <div id="comments">
+       <textarea rows="5" cols="50" placeholder="Write anything that was not listed, but is needed to make your pizza here."></textarea>
+     </div>
+      <input type="submit">
+      </form>
+     <footer>This website is Peter Mersdorf's for school.</footer>
+    </div>
+</body>
+</html>

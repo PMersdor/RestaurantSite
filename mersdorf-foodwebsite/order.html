@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Peter's Pizza/Order</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="wrapper">
+     <header><h1>Order Your Pizza</h1></header>
+     <img id="banner" src="banner.jpg" alt="Peter's Pizza Banner">
+     <ul id="nav">
+           <li><a href="index.html">HOME</a></li>
+           <li><a href="build.html">BUILD A PIZZA</a></li>
+           <li><a href="order.html">ORDER</a></li>
+           <li><a href="contact.html">CONTACT</a></li>
+     </ul>
+     <form action="thanks.html" method="post">
+      <div id="personal">
+        <h3>Personal Information</h3>
+       <ul>
+         <li><label>First Name:<input type="text" name="info" id="first" placeholder="your first name" required="required"></label></li>
+         <li><label>Last Name:<input type="text" name="info" id="last" placeholder="your last name" required="required"></label></li>
+         <li><label>Street Address:<input type="text" name="info" id="first" placeholder="your street address" required="required"></label></li>
+         <li><label>City:<input type="text" name="info" id="city" placeholder="your city name" required="required"></label></li>
+         <li><label>Apt #:<input type="number" name="info" id="apt" max="99999" min="1"></label></li>
+         <li><label>Zip Code:<input type="number" name="info" id="zip" required="required" min="1" max="99999"></label></li>
+         <li><label>State:<input type="text" name="info" id="state" placeholder="the state you live in" required="required"></label></li>
+         <li><label>Country:<input type="text" name="info" id="country" placeholder="the country you live in" required="required"></label></li>
+         <li><label>E-mail Address:<input type="text" name="info" id="email" placeholder="your email address" required="required"></label></li>
+         <li><label>Phone Number:<input type="number" name="info" id="phone" min="1000000000" max="9999999999" required="required"></label></li>
+         
+       </ul>
+      </div>
+      <div id="cardinfo">
+        <h3>Purchase Information</h3>
+       <ul>
+         <li><label>Credit Card #:<input type="number" name="info" id="card" required="required" min="1" max="9999999999999999"></label></li>
+         <li><label>Expiration Date:<input type="date" name="info" id="xdate" required="required"></label></li>
+         <li><label>CVV2:<input type="number" name="info" id="cvv" required="required" min="1" max="999"></label></li>
+         <h4>Type of Pizza:</h4>
+          <select>
+            <option value="custom">Custom</option>
+            <option value="classic">Classic</option>
+            <option value="cheese">Cheese</option>
+            <option value="peppeoni">Peppeoni</option>
+            <option value="meatlover">Meat Lover</option>
+            <option value="veggie">Veggie</option>
+            <option value="pineapple">Pineapple</option>
+            <option value="newyorker">New Yorker</option>
+          </select>
+      </div>
+      <input type="submit">
+     </form>
+     <footer>This website is Peter Mersdorf's for school.</footer>
+    </div>
+</body>
+</html>

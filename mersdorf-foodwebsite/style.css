@@ -1,0 +1,183 @@
+
+header, main, footer {
+  display: block;
+}
+body {
+  background-color: #E8E8E8;
+  color: #666666;
+  font-family: Verdana, Arial, sans-serif;
+}
+header {
+  background-color: #0033CC;
+  color: #FFFFFF;
+  font-family: Georgia, serif;
+  text-align: center;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+h1 {
+  line-height: 200%;
+  padding-left: 20px;
+  height: 72px;
+  margin-bottom: auto;
+  text-align: center;
+}
+#h3-1 {
+  text-align: center;
+}
+#h3-2{
+  float:left;
+  padding-left: 50px;
+}
+#h3-3{
+  padding-right: 50px;
+  float: right;
+}
+#nav {
+  width: 95%;
+  height: 30px;
+  margin: 0 auto;
+  list-style: none;
+  outline: #F00000 solid;
+  margin-top: 3px;
+}
+
+#nav li{
+  float: left;
+}
+
+#nav a{
+  display: block;
+  text-align: center;
+  width: 200px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #000000;
+  margin-top: 4px;
+}
+#nav a:link {
+  color: #000000;
+}
+#nav a:hover {
+  color: #F00000;
+}
+#wrapper {
+  width: 90%;
+  min-width: 700px;
+  max-width: 1024px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #FFFFFF;
+  box-shadow: 3px 3px 3px #666666;
+  border-radius: 10px;
+}
+ul {
+  list-style: none;
+}
+#banner {
+  width: 100%;
+  min-width: 700px;
+  max-width: 1024px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0px;
+}
+footer {
+  font-size: 0.70em;
+  text-align: center;
+  font-style: italic;
+  padding: 10px;
+  background-color: #FFFFFF;
+  clear: both;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+#h2-1 {
+  float: right;
+  padding-right: 480px;
+  color: #383838;
+}
+#h2-2 {
+  float: right;
+  padding-right: 250px;  
+  color: #383838;
+}
+#h2-3 {
+  text-align: center;
+}
+#intro {
+  display: block;
+  width: 40%;
+  height: auto;
+  padding-right: 320px;
+  text-indent: 25px;
+  margin: auto;
+}
+#quotepic1{
+  display: block;
+  float: right;
+  padding-right: 50px;
+}
+#quotepic2{
+  display: block;
+  float: left;
+  padding-left: 50px;
+  padding-top: 10px;
+}
+#quotepic3{
+  display: block;
+  float: right;
+  padding-right: 200px;
+}
+#quote1{
+  display: block;
+  float: left;
+  width: 40%;
+  padding-top: 5px;
+  padding-left: 300px;
+}
+#quote2{
+  display: block;
+  float: right;
+  max-height: 100px;
+  width: 50%;
+  padding-top: 5px;
+  padding-right: 200px;
+}
+#quote3{
+  
+  display: block;
+  float: left;
+  width: 40%;
+  padding-left: 150px;
+}
+#crust {
+  float: right;
+  padding-right: 50px;
+}
+#cheese {
+  float: left;
+  padding-left: 50px;
+}
+#toppings {
+  padding-left: 350px;
+}
+a:link {
+  color: #000000;
+}
+a:hover {
+  color: #F00000;
+}
+a {
+  text-decoration: none
+  
+}
+#cardinfo{
+  float: right;
+  padding-right: 50px;
+}
+#personal{
+  float: left;
+  padding-left: 50px;
+}
